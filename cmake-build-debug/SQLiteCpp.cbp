@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="SQLiteCpp"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\sqlite3\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/dev/puppy-project/oss/src/sqlitecpp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/dev/puppy-project/oss/src/sqlitecpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/dev/puppy-project/oss/src/sqlitecpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/dev/puppy-project/oss/src/sqlitecpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/dev/puppy-project/oss/src/sqlitecpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/dev/puppy-project/oss/src/sqlitecpp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/dev/puppy-project/oss/src/sqlitecpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/dev/puppy-project/oss/src/sqlitecpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/dev/puppy-project/oss/src/sqlitecpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/dev/puppy-project/oss/src/sqlitecpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/dev/puppy-project/oss/src/sqlitecpp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/dev/puppy-project/oss/src/sqlitecpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/dev/puppy-project/oss/src/sqlitecpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/dev/puppy-project/oss/src/sqlitecpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/dev/puppy-project/oss/src/sqlitecpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SQLiteCpp">
+				<Option output="/home/dev/puppy-project/oss/src/sqlitecpp/cmake-build-debug/libSQLiteCpp.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dev/puppy-project/oss/src/sqlitecpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSQLITE_ENABLE_COLUMN_METADATA"/>
+					<Add directory="/home/dev/puppy-project/oss/src/sqlitecpp/include"/>
+					<Add directory="/home/dev/puppy-project/oss/src/sqlitecpp/sqlite3"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/dev/puppy-project/oss/src/sqlitecpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 SQLiteCpp"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/dev/puppy-project/oss/src/sqlitecpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/dev/puppy-project/oss/src/sqlitecpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/dev/puppy-project/oss/src/sqlitecpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SQLiteCpp/fast">
+				<Option output="/home/dev/puppy-project/oss/src/sqlitecpp/cmake-build-debug/libSQLiteCpp.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dev/puppy-project/oss/src/sqlitecpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSQLITE_ENABLE_COLUMN_METADATA"/>
+					<Add directory="/home/dev/puppy-project/oss/src/sqlitecpp/include"/>
+					<Add directory="/home/dev/puppy-project/oss/src/sqlitecpp/sqlite3"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/dev/puppy-project/oss/src/sqlitecpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 SQLiteCpp/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/dev/puppy-project/oss/src/sqlitecpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/dev/puppy-project/oss/src/sqlitecpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/dev/puppy-project/oss/src/sqlitecpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/dev/puppy-project/oss/src/sqlitecpp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/dev/puppy-project/oss/src/sqlitecpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/dev/puppy-project/oss/src/sqlitecpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/dev/puppy-project/oss/src/sqlitecpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/dev/puppy-project/oss/src/sqlitecpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/dev/puppy-project/oss/src/sqlitecpp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/dev/puppy-project/oss/src/sqlitecpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/dev/puppy-project/oss/src/sqlitecpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/dev/puppy-project/oss/src/sqlitecpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/dev/puppy-project/oss/src/sqlitecpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/dev/puppy-project/oss/src/sqlitecpp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/dev/puppy-project/oss/src/sqlitecpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/dev/puppy-project/oss/src/sqlitecpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/dev/puppy-project/oss/src/sqlitecpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/dev/puppy-project/oss/src/sqlitecpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SQLiteCpp_cpplint">
+				<Option working_dir="/home/dev/puppy-project/oss/src/sqlitecpp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/dev/puppy-project/oss/src/sqlitecpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 SQLiteCpp_cpplint"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/dev/puppy-project/oss/src/sqlitecpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/dev/puppy-project/oss/src/sqlitecpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/dev/puppy-project/oss/src/sqlitecpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/dev/puppy-project/oss/src/sqlitecpp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/dev/puppy-project/oss/src/sqlitecpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/dev/puppy-project/oss/src/sqlitecpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/dev/puppy-project/oss/src/sqlitecpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/dev/puppy-project/oss/src/sqlitecpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sqlite3">
+				<Option output="/home/dev/puppy-project/oss/src/sqlitecpp/cmake-build-debug/sqlite3/libsqlite3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dev/puppy-project/oss/src/sqlitecpp/cmake-build-debug/sqlite3"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSQLITE_ENABLE_COLUMN_METADATA"/>
+					<Add directory="/home/dev/puppy-project/oss/src/sqlitecpp/include"/>
+					<Add directory="/home/dev/puppy-project/oss/src/sqlitecpp/sqlite3"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/dev/puppy-project/oss/src/sqlitecpp/cmake-build-debug/sqlite3/Makefile&quot;  VERBOSE=1 sqlite3"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/dev/puppy-project/oss/src/sqlitecpp/cmake-build-debug/sqlite3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/dev/puppy-project/oss/src/sqlitecpp/cmake-build-debug/sqlite3/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/dev/puppy-project/oss/src/sqlitecpp/cmake-build-debug/sqlite3/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sqlite3/fast">
+				<Option output="/home/dev/puppy-project/oss/src/sqlitecpp/cmake-build-debug/sqlite3/libsqlite3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dev/puppy-project/oss/src/sqlitecpp/cmake-build-debug/sqlite3"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSQLITE_ENABLE_COLUMN_METADATA"/>
+					<Add directory="/home/dev/puppy-project/oss/src/sqlitecpp/include"/>
+					<Add directory="/home/dev/puppy-project/oss/src/sqlitecpp/sqlite3"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/dev/puppy-project/oss/src/sqlitecpp/cmake-build-debug/sqlite3/Makefile&quot;  VERBOSE=1 sqlite3/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/dev/puppy-project/oss/src/sqlitecpp/cmake-build-debug/sqlite3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/dev/puppy-project/oss/src/sqlitecpp/cmake-build-debug/sqlite3/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/dev/puppy-project/oss/src/sqlitecpp/cmake-build-debug/sqlite3/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/dev/puppy-project/oss/src/sqlitecpp/.travis.yml">
+			<Option target="SQLiteCpp"/>
+		</Unit>
+		<Unit filename="/home/dev/puppy-project/oss/src/sqlitecpp/CHANGELOG.txt">
+			<Option target="SQLiteCpp"/>
+		</Unit>
+		<Unit filename="/home/dev/puppy-project/oss/src/sqlitecpp/Doxyfile">
+			<Option target="SQLiteCpp"/>
+		</Unit>
+		<Unit filename="/home/dev/puppy-project/oss/src/sqlitecpp/FindSQLiteCpp.cmake">
+			<Option target="SQLiteCpp"/>
+		</Unit>
+		<Unit filename="/home/dev/puppy-project/oss/src/sqlitecpp/LICENSE.txt">
+			<Option target="SQLiteCpp"/>
+		</Unit>
+		<Unit filename="/home/dev/puppy-project/oss/src/sqlitecpp/README.md">
+			<Option target="SQLiteCpp"/>
+		</Unit>
+		<Unit filename="/home/dev/puppy-project/oss/src/sqlitecpp/TODO.txt">
+			<Option target="SQLiteCpp"/>
+		</Unit>
+		<Unit filename="/home/dev/puppy-project/oss/src/sqlitecpp/appveyor.yml">
+			<Option target="SQLiteCpp"/>
+		</Unit>
+		<Unit filename="/home/dev/puppy-project/oss/src/sqlitecpp/build.bat">
+			<Option target="SQLiteCpp"/>
+		</Unit>
+		<Unit filename="/home/dev/puppy-project/oss/src/sqlitecpp/build.sh">
+			<Option target="SQLiteCpp"/>
+		</Unit>
+		<Unit filename="/home/dev/puppy-project/oss/src/sqlitecpp/cpplint.py">
+			<Option target="SQLiteCpp"/>
+		</Unit>
+		<Unit filename="/home/dev/puppy-project/oss/src/sqlitecpp/include/SQLiteCpp/Assertion.h">
+			<Option target="SQLiteCpp"/>
+		</Unit>
+		<Unit filename="/home/dev/puppy-project/oss/src/sqlitecpp/include/SQLiteCpp/Backup.h">
+			<Option target="SQLiteCpp"/>
+		</Unit>
+		<Unit filename="/home/dev/puppy-project/oss/src/sqlitecpp/include/SQLiteCpp/Column.h">
+			<Option target="SQLiteCpp"/>
+		</Unit>
+		<Unit filename="/home/dev/puppy-project/oss/src/sqlitecpp/include/SQLiteCpp/Database.h">
+			<Option target="SQLiteCpp"/>
+		</Unit>
+		<Unit filename="/home/dev/puppy-project/oss/src/sqlitecpp/include/SQLiteCpp/Exception.h">
+			<Option target="SQLiteCpp"/>
+		</Unit>
+		<Unit filename="/home/dev/puppy-project/oss/src/sqlitecpp/include/SQLiteCpp/SQLiteCpp.h">
+			<Option target="SQLiteCpp"/>
+		</Unit>
+		<Unit filename="/home/dev/puppy-project/oss/src/sqlitecpp/include/SQLiteCpp/Statement.h">
+			<Option target="SQLiteCpp"/>
+		</Unit>
+		<Unit filename="/home/dev/puppy-project/oss/src/sqlitecpp/include/SQLiteCpp/Transaction.h">
+			<Option target="SQLiteCpp"/>
+		</Unit>
+		<Unit filename="/home/dev/puppy-project/oss/src/sqlitecpp/include/SQLiteCpp/VariadicBind.h">
+			<Option target="SQLiteCpp"/>
+		</Unit>
+		<Unit filename="/home/dev/puppy-project/oss/src/sqlitecpp/sqlite3/sqlite3.c">
+			<Option target="sqlite3"/>
+		</Unit>
+		<Unit filename="/home/dev/puppy-project/oss/src/sqlitecpp/sqlite3/sqlite3.h">
+			<Option target="sqlite3"/>
+		</Unit>
+		<Unit filename="/home/dev/puppy-project/oss/src/sqlitecpp/src/Backup.cpp">
+			<Option target="SQLiteCpp"/>
+		</Unit>
+		<Unit filename="/home/dev/puppy-project/oss/src/sqlitecpp/src/Column.cpp">
+			<Option target="SQLiteCpp"/>
+		</Unit>
+		<Unit filename="/home/dev/puppy-project/oss/src/sqlitecpp/src/Database.cpp">
+			<Option target="SQLiteCpp"/>
+		</Unit>
+		<Unit filename="/home/dev/puppy-project/oss/src/sqlitecpp/src/Exception.cpp">
+			<Option target="SQLiteCpp"/>
+		</Unit>
+		<Unit filename="/home/dev/puppy-project/oss/src/sqlitecpp/src/Statement.cpp">
+			<Option target="SQLiteCpp"/>
+		</Unit>
+		<Unit filename="/home/dev/puppy-project/oss/src/sqlitecpp/src/Transaction.cpp">
+			<Option target="SQLiteCpp"/>
+		</Unit>
+		<Unit filename="/home/dev/puppy-project/oss/src/sqlitecpp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/dev/puppy-project/oss/src/sqlitecpp/sqlite3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\sqlite3\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
