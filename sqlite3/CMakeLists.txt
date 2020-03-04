@@ -10,3 +10,5 @@ add_library(sqlite3 SHARED
  sqlite3.c
  sqlite3.h
 )
+target_link_libraries(sqlite3 pthread dl)
+install(TARGETS sqlite3  LIBRARY DESTINATION lib   ARCHIVE DESTINATION lib  COMPONENT libraries)
